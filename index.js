@@ -1,6 +1,7 @@
 const express = require("express");
 const db = require("./database/database");
 const dotenv = require("dotenv");
+const cors = require("cors");
 const app = express();
 
 // Uncoment 3 lines below to use database connection with sequelize
@@ -9,6 +10,7 @@ const app = express();
 //   .catch((err) => console.log(err));
 
 // App setup
+app.use(cors());
 app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/public"));
 app.set("views", __dirname + "/public/views");
