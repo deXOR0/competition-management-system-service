@@ -1,1 +1,169 @@
-{"azcdv":{"test":"test"},"rldit":{"test":"test"},"abc":{"test":"test2"}}
+{
+    "partij": {
+        "players": [
+            {
+                "id": "uPb7n",
+                "initial": "CED",
+                "pts": 12,
+                "pa": 21,
+                "pf": 44,
+                "pd": 23
+            },
+            {
+                "id": "AoCm7",
+                "initial": "KYC",
+                "pts": 6,
+                "pa": 23,
+                "pf": 38,
+                "pd": 15
+            },
+            {
+                "id": "xqVF-",
+                "initial": "WES",
+                "pts": 6,
+                "pa": 21,
+                "pf": 30,
+                "pd": 9
+            },
+            {
+                "id": "7d2gR",
+                "initial": "CNT",
+                "pts": 6,
+                "pa": 23,
+                "pf": 29,
+                "pd": 6
+            },
+            {
+                "id": "IMCPH",
+                "initial": "ANT",
+                "pts": 0,
+                "pa": 22,
+                "pf": 8,
+                "pd": -14
+            },
+            {
+                "id": "2aZVG",
+                "initial": "ALB",
+                "pts": 0,
+                "pa": 33,
+                "pf": 5,
+                "pd": -28
+            },
+            {
+                "id": "2k1ac",
+                "initial": "ROB",
+                "pts": 0,
+                "pa": 11,
+                "pf": 0,
+                "pd": -11
+            }
+        ],
+        "matches": [
+            {
+                "id": "FtWkQ",
+                "first": { "id": "7d2gR", "initial": "CNT", "points": 11 },
+                "second": { "id": "AoCm7", "initial": "KYC", "points": 9 }
+            },
+            {
+                "id": "dJoGd",
+                "first": { "id": "7d2gR", "initial": "CNT", "points": 11 },
+                "second": { "id": "2aZVG", "initial": "ALB", "points": 3 }
+            },
+            {
+                "id": "lCUHU",
+                "first": { "id": "2k1ac", "initial": "ROB", "points": 0 },
+                "second": { "id": "AoCm7", "initial": "KYC", "points": 11 }
+            },
+            {
+                "id": "HAouA",
+                "first": { "id": "uPb7n", "initial": "CED", "points": 11 },
+                "second": { "id": "AoCm7", "initial": "KYC", "points": 7 }
+            },
+            {
+                "id": "Rjdxv",
+                "first": { "id": "7d2gR", "initial": "CNT", "points": 7 },
+                "second": { "id": "xqVF-", "initial": "WES", "points": 11 }
+            },
+            {
+                "id": "eGHE4",
+                "first": { "id": "2k1ac", "initial": "ROB", "points": 0 },
+                "second": { "id": "IMCPH", "initial": "ANT", "points": 0 }
+            },
+            {
+                "id": "QKomq",
+                "first": { "id": "IMCPH", "initial": "ANT", "points": 5 },
+                "second": { "id": "uPb7n", "initial": "CED", "points": 11 }
+            },
+            {
+                "id": "deB0-",
+                "first": { "id": "2aZVG", "initial": "ALB", "points": 1 },
+                "second": { "id": "uPb7n", "initial": "CED", "points": 11 }
+            },
+            {
+                "id": "E-lI_",
+                "first": { "id": "IMCPH", "initial": "ANT", "points": 3 },
+                "second": { "id": "xqVF-", "initial": "WES", "points": 11 }
+            },
+            {
+                "id": "8mhZc",
+                "first": { "id": "2aZVG", "initial": "ALB", "points": 1 },
+                "second": { "id": "AoCm7", "initial": "KYC", "points": 11 }
+            },
+            {
+                "id": "a0LOs",
+                "first": { "id": "uPb7n", "initial": "CED", "points": 11 },
+                "second": { "id": "xqVF-", "initial": "WES", "points": 8 }
+            },
+            {
+                "id": "U4Ix_",
+                "first": { "id": "IMCPH", "initial": "ANT", "points": 0 },
+                "second": { "id": "AoCm7", "initial": "KYC", "points": 0 }
+            },
+            {
+                "id": "Kvt4L",
+                "first": { "id": "2aZVG", "initial": "ALB", "points": 0 },
+                "second": { "id": "xqVF-", "initial": "WES", "points": 0 }
+            },
+            {
+                "id": "cutve",
+                "first": { "id": "7d2gR", "initial": "CNT", "points": 0 },
+                "second": { "id": "2k1ac", "initial": "ROB", "points": 0 }
+            },
+            {
+                "id": "_QNna",
+                "first": { "id": "2k1ac", "initial": "ROB", "points": 0 },
+                "second": { "id": "2aZVG", "initial": "ALB", "points": 0 }
+            },
+            {
+                "id": "_Wws0",
+                "first": { "id": "7d2gR", "initial": "CNT", "points": 0 },
+                "second": { "id": "IMCPH", "initial": "ANT", "points": 0 }
+            },
+            {
+                "id": "vUnQL",
+                "first": { "id": "2k1ac", "initial": "ROB", "points": 0 },
+                "second": { "id": "xqVF-", "initial": "WES", "points": 0 }
+            },
+            {
+                "id": "9FkaG",
+                "first": { "id": "2aZVG", "initial": "ALB", "points": 0 },
+                "second": { "id": "IMCPH", "initial": "ANT", "points": 0 }
+            },
+            {
+                "id": "d8aTh",
+                "first": { "id": "7d2gR", "initial": "CNT", "points": 0 },
+                "second": { "id": "uPb7n", "initial": "CED", "points": 0 }
+            },
+            {
+                "id": "CbF8c",
+                "first": { "id": "AoCm7", "initial": "KYC", "points": 0 },
+                "second": { "id": "xqVF-", "initial": "WES", "points": 0 }
+            },
+            {
+                "id": "vMkPI",
+                "first": { "id": "2k1ac", "initial": "ROB", "points": 0 },
+                "second": { "id": "uPb7n", "initial": "CED", "points": 0 }
+            }
+        ]
+    }
+}
