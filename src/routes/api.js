@@ -94,6 +94,25 @@ router.post("/session", async (req, res) => {
     });
 });
 
+router.put("/session", async (req, res) => {
+    let { sessionId, sessionData } = req.body;
+
+    const sessions = helper.getSessions();
+
+    sessions[sessionId] = sessionData;
+
+    const fd = fs.openSync(__dirname + "/sessions.json", "w");
+
+    sessionId = sessionId.toLowerCase();
+
+    fs.writeSync(fd, JSON.stringify(sessions));
+
+    return res.json({
+        sessionId,
+        sessionData: sessions[sessionId],
+    });
+});
+
 router.post("/example", async (req, res, next) => {
     const { name, age } = req.body;
     try {
